@@ -7,20 +7,20 @@ class Codineer < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/andeya/codineer/releases/download/v0.5.0/codineer-v0.5.0-aarch64-apple-darwin.tar.gz"
-      sha256 "1ea32b424fcf35e7e693b7e37c79a9269bebc0592557ec0131ff609181d2fee1"
+      sha256 "e5fdedc6e2602fc85b1bdbb65328afe471f3cd229a01a912088bdb3234e3139a"
     else
       url "https://github.com/andeya/codineer/releases/download/v0.5.0/codineer-v0.5.0-x86_64-apple-darwin.tar.gz"
-      sha256 "17620288d6cc8fea90fe66e503775d729bf2e66ca6cfad0f3f16e5ed56475f39"
+      sha256 "1a6e0c43bc4ef9fb67aa9a7549fa6fcb5f05e41fdf51f425d8a61598c6e28c1a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/andeya/codineer/releases/download/v0.5.0/codineer-v0.5.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "18b93b40970e6c528ecb7987aabae40cd821b22ddb99b9645a8e521e94acd6a3"
+      sha256 "3fd40628233ca388a299c3562d1d7c5856ca5d0407e1df0b9e0e0fc3d5c213c6"
     else
       url "https://github.com/andeya/codineer/releases/download/v0.5.0/codineer-v0.5.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4205ac3685e6a721b434f1f31cef58a3524323ab37a102a0362c14cdc198d83e"
+      sha256 "55c9431b915c656269e8c447f7b0f0a51f361512a6b6a54838f25e9996753849"
     end
   end
 
