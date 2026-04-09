@@ -1,26 +1,26 @@
 class Codineer < Formula
   desc "Local coding-agent CLI implemented in safe Rust"
   homepage "https://github.com/andeya/codineer"
-  version "0.6.8"
+  version "0.6.9"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/andeya/codineer/releases/download/v0.6.8/codineer-v0.6.8-aarch64-apple-darwin.tar.gz"
-      sha256 "dd081aad583f79c15883a700bf3a9b947187d54886d70a581fec9ea123cd1102"
+      url "https://github.com/andeya/codineer/releases/download/v0.6.9/codineer-v0.6.9-aarch64-apple-darwin.tar.gz"
+      sha256 "465f9950314c8d4d0b55e97a43ec68194ee304e61f819ea9dda9e59746b4ed98"
     else
-      url "https://github.com/andeya/codineer/releases/download/v0.6.8/codineer-v0.6.8-x86_64-apple-darwin.tar.gz"
-      sha256 "1c31cd5dcd2cdb6e3fd826766c9cff1b7eb26de3629b1607c5d4c113d97c8094"
+      url "https://github.com/andeya/codineer/releases/download/v0.6.9/codineer-v0.6.9-x86_64-apple-darwin.tar.gz"
+      sha256 "578a045ca05777c598339931061f1f687537f3ae96d60a6c56e799a68635a5be"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/andeya/codineer/releases/download/v0.6.8/codineer-v0.6.8-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "25a59c2b15533ae325eead24995a0701b01758c80ef1ff27686ecdef81dcfab4"
+      url "https://github.com/andeya/codineer/releases/download/v0.6.9/codineer-v0.6.9-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "9985e55ca252d97417421871b45b50b04d23714038c21496f1cc837a7015d401"
     else
-      url "https://github.com/andeya/codineer/releases/download/v0.6.8/codineer-v0.6.8-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "445a4382377bf28868a41fa543f227b1a5c06fbba59587d49529df55f610f6b9"
+      url "https://github.com/andeya/codineer/releases/download/v0.6.9/codineer-v0.6.9-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "97174e2bf95e729fb64b5aab3fe2562f76ffed525d32cb6c04bd953fe2f8b3cc"
     end
   end
 
